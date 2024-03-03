@@ -27,9 +27,17 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Cookie.cpp" />
+    <ClCompile Include="DelegateSystem.cpp" />
     <ClCompile Include="game.cpp" />
+    <ClCompile Include="TextRenderer.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Cookie.h" />
+    <ClInclude Include="DelegateSystem.h" />
+    <ClInclude Include="Observer.h" />
+    <ClInclude Include="SDLUtil.h" />
+    <ClInclude Include="TextRenderer.h" />
     <ClInclude Include="Window.h" />
   </ItemGroup>
   <ItemGroup>
